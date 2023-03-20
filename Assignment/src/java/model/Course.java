@@ -4,39 +4,28 @@
  */
 package model;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author datng
  */
 public class Course {
-    private String id;
-    private String name;
-    private ArrayList<Group> group = new ArrayList<>();
+    private int courseId;
+    private String courseName;
 
-    public String getId() {
-        return id;
+    public int getCourseId() {
+        return courseId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setCourseId(int courseId) {
+        this.courseId = courseId;
     }
 
-    public String getName() {
-        return name;
+    public String getCourseName() {
+        return courseName;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public ArrayList<Group> getGroup() {
-        return group;
-    }
-
-    public void setGroup(ArrayList<Group> group) {
-        this.group = group;
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
     
 }

@@ -5,42 +5,35 @@
 package model;
 
 import java.sql.Date;
+import java.util.List;
 
 /**
  *
  * @author datng
  */
 public class Session {
-    private int id;
-    private Room room;
-    private Lecturer lecturer;
+    private int sessionId;
+    private int slot;
     private Date date;
-    private TimeSlot slot;
-    private Group group;
-    private boolean status;
+    private Room room;
+    private Classes classes;
+    private Course course;
+    private List<Attendance> attendance;
 
-    public int getId() {
-        return id;
+    public int getSessionId() {
+        return sessionId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setSessionId(int sessionId) {
+        this.sessionId = sessionId;
     }
 
-    public Room getRoom() {
-        return room;
+    public int getSlot() {
+        return slot;
     }
 
-    public void setRoom(Room room) {
-        this.room = room;
-    }
-
-    public Lecturer getLecturer() {
-        return lecturer;
-    }
-
-    public void setLecturer(Lecturer lecturer) {
-        this.lecturer = lecturer;
+    public void setSlot(int slot) {
+        this.slot = slot;
     }
 
     public Date getDate() {
@@ -51,27 +44,36 @@ public class Session {
         this.date = date;
     }
 
-    public TimeSlot getSlot() {
-        return slot;
+    public Room getRoom() {
+        return room;
     }
 
-    public void setSlot(TimeSlot slot) {
-        this.slot = slot;
+    public void setRoom(Room room) {
+        this.room = room;
     }
 
-    public Group getGroup() {
-        return group;
+    public Classes getClasses() {
+        return classes;
     }
 
-    public void setGroup(Group group) {
-        this.group = group;
+    public void setClasses(Classes classes) {
+        this.classes = classes;
     }
 
-    public boolean isStatus() {
-        return status;
+    public Course getCourse() {
+        return course;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setCourse(Course course) {
+        this.course = course;
     }
+
+    public List<Attendance> getAttendance() {
+        return attendance;
+    }
+
+    public void setAttendance(List<Attendance> attendance) {
+        this.attendance = attendance;
+    }
+    
 }
