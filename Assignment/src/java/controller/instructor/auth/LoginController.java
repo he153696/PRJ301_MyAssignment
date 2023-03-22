@@ -57,7 +57,7 @@ public class LoginController extends HttpServlet {
             request.setAttribute("message", "Email or password wrong, try again");
             request.setAttribute("email", email);
             request.setAttribute("password", password);
-            request.getRequestDispatcher("views/instructor/auth/login.jsp").forward(request, response);
+            request.getRequestDispatcher("view/instructor/auth/login.jsp").forward(request, response);
         }
     }
 

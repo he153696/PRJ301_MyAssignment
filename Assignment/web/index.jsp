@@ -64,7 +64,7 @@
            -webkit-background-clip: text;
            margin-left: 40%;
            margin-right: 40%;
-           " href="http://localhost:8080/MyProject">1. Home</a><br><br>
+           " href="http://localhost:9999/Assignment">1. Home</a><br><br>
         <a style="background-image: linear-gradient(to right, #108dc7 45%, #ef8e38);
            padding: 5px;
            border-radius: 5px;
@@ -74,7 +74,7 @@
            -webkit-background-clip: text;
            margin-left: 35%;
            margin-right: 35%;"
-           href="http://localhost:8080/MyProject/session">2. View Schedule</a><br><br>
+           href="http://localhost:9999/Assignment/session">2. View Schedule</a><br><br>
 <!--        <a style="background-image: linear-gradient(to right, #108dc7 45%, #ef8e38);
            padding: 5px;
            border-radius: 5px;
@@ -84,7 +84,7 @@
            -webkit-background-clip: text;
            margin-left: 32%;
            margin-right: 32%;" 
-           href="http://localhost:8080/MyProject/report/attendance">3. Attendance Report</a>-->
+           href="http://localhost:9999/Assignment/report/attendance">3. Attendance Report</a>-->
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
     </body>
